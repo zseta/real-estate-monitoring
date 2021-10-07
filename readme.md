@@ -26,7 +26,7 @@ a local Superset instance running - with real web extracted data (100K+ rows).
 
     Verify that both are installed:
     ```bash
-    docker --version && psql --version
+    docker --version && docker-compose --version
     ```
 * [Virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) (optional, only needed for the spiders)
     ```bash
@@ -57,11 +57,11 @@ a local Superset instance running - with real web extracted data (100K+ rows).
     ```
 1. Open the `Databases` page inside Superset (http://0.0.0.0:8088/databaseview/list/). You will see exactly one item there
     called `real-estate`.
-1. Click the edit button (pencil icon) on the right.
-1. Finally, don't change anything in the popup window, just click `Finish`. This will make sure the database can be 
+1. Click the edit button (pencil icon) on the right side of the table.
+1. Don't change anything in the popup window, just click `Finish`. This will make sure the database can be 
     reached from Superset.
-1. Go to the real-estate dashboard page (0.0.0.0:8088/superset/dashboard/1/) and you will the all the charts that have 
-    been created based on real web extracted data, stored in TimescaleDB.
+1. Go to the real-estate dashboard page (http://0.0.0.0:8088/superset/dashboard/1/) and you will see the all the charts that have 
+    been created based on the web extracted data stored in TimescaleDB.
 
 
 ## Schema design
