@@ -1,0 +1,1332 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "real-estate",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 2}",
+                "position_json": "{\"CHART-24t_bWLadS\":{\"children\":[],\"id\":\"CHART-24t_bWLadS\",\"meta\":{\"chartId\":49,\"height\":50,\"sliceName\":\"Average property price/area over time\",\"uuid\":\"f2e23300-3096-4788-9c8d-a7874005075a\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-fVdpT_efIm\",\"COLUMN-t3Nsc13M9Q\"],\"type\":\"CHART\"},\"CHART-AGhoGnXS9Q\":{\"children\":[],\"id\":\"CHART-AGhoGnXS9Q\",\"meta\":{\"chartId\":45,\"height\":50,\"sliceName\":\"Average property price over time\",\"uuid\":\"358e7ce2-080d-465c-884c-76c4ac1b00a3\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-fVdpT_efIm\",\"COLUMN-ZYhFOGb7Oq\"],\"type\":\"CHART\"},\"CHART-CwXx36K5ri\":{\"children\":[],\"id\":\"CHART-CwXx36K5ri\",\"meta\":{\"chartId\":29,\"height\":57,\"sliceName\":\"Property types (Budapest)\",\"uuid\":\"d81aad76-44ac-4156-9934-ae1a49342fb7\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-S4i5k2xSG\",\"COLUMN-WyQjnzdJia\"],\"type\":\"CHART\"},\"CHART-D-Sdv8RTRC\":{\"children\":[],\"id\":\"CHART-D-Sdv8RTRC\",\"meta\":{\"chartId\":40,\"height\":27,\"sliceName\":\"Listings in the database (uncleaned)\",\"uuid\":\"2c9a5884-1666-4cea-80d7-fc14602c6090\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\",\"COLUMN-NLgS_Ec3EW\"],\"type\":\"CHART\"},\"CHART-Gh36hznX7Q\":{\"children\":[],\"id\":\"CHART-Gh36hznX7Q\",\"meta\":{\"chartId\":41,\"height\":50,\"sliceName\":\"Property condition\",\"uuid\":\"2c04b1a4-06d9-4271-a9bf-2dbcb9c9ed26\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-byyMDF5TJ\"],\"type\":\"CHART\"},\"CHART-NoRmt7Dttc\":{\"children\":[],\"id\":\"CHART-NoRmt7Dttc\",\"meta\":{\"chartId\":28,\"height\":28,\"sliceName\":\"Count of listings per city\",\"uuid\":\"80b4ec96-a1fa-48eb-a0d6-572fde6e37a9\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\",\"COLUMN-uv58UeWArN\"],\"type\":\"CHART\"},\"CHART-SQEKEohvei\":{\"children\":[],\"id\":\"CHART-SQEKEohvei\",\"meta\":{\"chartId\":31,\"height\":50,\"sliceName\":\"Distribution of property types and conditions\",\"uuid\":\"6bfcf2a9-7c89-4285-bf39-f40ff5df5aa5\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-akimaNGOwS\",\"COLUMN-BxbTyIqpcN\"],\"type\":\"CHART\"},\"CHART-UWT4c1o-ng\":{\"children\":[],\"id\":\"CHART-UWT4c1o-ng\",\"meta\":{\"chartId\":50,\"height\":50,\"sliceName\":\"Average price per property condition\",\"uuid\":\"f20a78c7-c943-4d05-af6b-980989d9c951\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-ZVftn2SyVO\",\"COLUMN-VH9yuX1IY-\"],\"type\":\"CHART\"},\"CHART-WAXysjS7aG\":{\"children\":[],\"id\":\"CHART-WAXysjS7aG\",\"meta\":{\"chartId\":38,\"height\":27,\"sliceName\":\"Data rows ingested last week\",\"uuid\":\"46187f8c-252b-4232-b8de-ffd30b7e9ba7\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\",\"COLUMN-YbGXJQS7rt\"],\"type\":\"CHART\"},\"CHART-dCP-kDbu_2\":{\"children\":[],\"id\":\"CHART-dCP-kDbu_2\",\"meta\":{\"chartId\":30,\"height\":50,\"sliceName\":\"Property conditions per built year\",\"uuid\":\"b0231775-2b01-46b2-8f0a-353d57206cea\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Ii6rWbKS-N\",\"COLUMN-5G2nswNuBT\"],\"type\":\"CHART\"},\"CHART-dv21UULeKy\":{\"children\":[],\"id\":\"CHART-dv21UULeKy\",\"meta\":{\"chartId\":42,\"height\":50,\"sliceName\":\"Property per city\",\"uuid\":\"e78900a2-9bba-41b7-8a5d-b1f33880f633\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-byyMDF5TJ\"],\"type\":\"CHART\"},\"CHART-ev-VYDBXmi\":{\"children\":[],\"id\":\"CHART-ev-VYDBXmi\",\"meta\":{\"chartId\":39,\"height\":27,\"sliceName\":\"Listings in the database (only top 10 cities included)\",\"uuid\":\"0c0d658e-e2a8-4053-84d0-38f68cb8fd2a\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\",\"COLUMN-SknAYUVwTR\"],\"type\":\"CHART\"},\"CHART-gmTLlWxpLQ\":{\"children\":[],\"id\":\"CHART-gmTLlWxpLQ\",\"meta\":{\"chartId\":51,\"height\":50,\"sliceName\":\"Average price per build year\",\"uuid\":\"5055ee17-09d5-4cdc-8a39-f7f172283a43\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-ZVftn2SyVO\",\"COLUMN-yYzbT4LXTV\"],\"type\":\"CHART\"},\"CHART-qf_2B5CzVo\":{\"children\":[],\"id\":\"CHART-qf_2B5CzVo\",\"meta\":{\"chartId\":46,\"height\":31,\"sliceName\":\"Scraping calendar\",\"uuid\":\"7e958390-01d7-45c6-bd9a-8618e5ce382a\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\",\"COLUMN-j4Cul2B6h1\"],\"type\":\"CHART\"},\"CHART-vYs4YCpYLB\":{\"children\":[],\"id\":\"CHART-vYs4YCpYLB\",\"meta\":{\"chartId\":43,\"height\":50,\"sliceName\":\"Build year\",\"uuid\":\"1ce13200-c1f5-4d75-86fa-5054ce579489\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-byyMDF5TJ\"],\"type\":\"CHART\"},\"COLUMN-5G2nswNuBT\":{\"children\":[\"CHART-dCP-kDbu_2\"],\"id\":\"COLUMN-5G2nswNuBT\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-Ii6rWbKS-N\"],\"type\":\"COLUMN\"},\"COLUMN-BxbTyIqpcN\":{\"children\":[\"CHART-SQEKEohvei\"],\"id\":\"COLUMN-BxbTyIqpcN\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-akimaNGOwS\"],\"type\":\"COLUMN\"},\"COLUMN-NLgS_Ec3EW\":{\"children\":[\"CHART-D-Sdv8RTRC\"],\"id\":\"COLUMN-NLgS_Ec3EW\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\"],\"type\":\"COLUMN\"},\"COLUMN-SknAYUVwTR\":{\"children\":[\"CHART-ev-VYDBXmi\"],\"id\":\"COLUMN-SknAYUVwTR\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\"],\"type\":\"COLUMN\"},\"COLUMN-VH9yuX1IY-\":{\"children\":[\"CHART-UWT4c1o-ng\"],\"id\":\"COLUMN-VH9yuX1IY-\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-ZVftn2SyVO\"],\"type\":\"COLUMN\"},\"COLUMN-WyQjnzdJia\":{\"children\":[\"CHART-CwXx36K5ri\"],\"id\":\"COLUMN-WyQjnzdJia\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-S4i5k2xSG\"],\"type\":\"COLUMN\"},\"COLUMN-XDSHzhuaEg\":{\"children\":[\"MARKDOWN-xzuPC_Qfsv\"],\"id\":\"COLUMN-XDSHzhuaEg\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-GcXjnfIbc\"],\"type\":\"COLUMN\"},\"COLUMN-YbGXJQS7rt\":{\"children\":[\"CHART-WAXysjS7aG\"],\"id\":\"COLUMN-YbGXJQS7rt\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\"],\"type\":\"COLUMN\"},\"COLUMN-ZA3NVa1kyJ\":{\"children\":[\"HEADER-2IihRJv3UA\"],\"id\":\"COLUMN-ZA3NVa1kyJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-yEL5C0HvaJ\"],\"type\":\"COLUMN\"},\"COLUMN-ZYhFOGb7Oq\":{\"children\":[\"CHART-AGhoGnXS9Q\",\"HEADER-nxlvsd6b0D\"],\"id\":\"COLUMN-ZYhFOGb7Oq\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-fVdpT_efIm\"],\"type\":\"COLUMN\"},\"COLUMN-j4Cul2B6h1\":{\"children\":[\"CHART-qf_2B5CzVo\"],\"id\":\"COLUMN-j4Cul2B6h1\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\"],\"type\":\"COLUMN\"},\"COLUMN-t3Nsc13M9Q\":{\"children\":[\"CHART-24t_bWLadS\"],\"id\":\"COLUMN-t3Nsc13M9Q\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-fVdpT_efIm\"],\"type\":\"COLUMN\"},\"COLUMN-uv58UeWArN\":{\"children\":[\"CHART-NoRmt7Dttc\"],\"id\":\"COLUMN-uv58UeWArN\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-4dFCZM_U7k\"],\"type\":\"COLUMN\"},\"COLUMN-yYzbT4LXTV\":{\"children\":[\"CHART-gmTLlWxpLQ\"],\"id\":\"COLUMN-yYzbT4LXTV\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-ZVftn2SyVO\"],\"type\":\"COLUMN\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"HEADER-Xjfzb7SWH5\",\"ROW-GcXjnfIbc\",\"ROW-4dFCZM_U7k\",\"HEADER-YFYPfb1oy5\",\"ROW-fVdpT_efIm\",\"ROW-byyMDF5TJ\",\"ROW-akimaNGOwS\",\"ROW-yEL5C0HvaJ\",\"ROW-S4i5k2xSG\",\"ROW-Ii6rWbKS-N\",\"ROW-ZVftn2SyVO\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-2IihRJv3UA\":{\"children\":[],\"id\":\"HEADER-2IihRJv3UA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"BUDAPEST\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-yEL5C0HvaJ\",\"COLUMN-ZA3NVa1kyJ\"],\"type\":\"HEADER\"},\"HEADER-Xjfzb7SWH5\":{\"children\":[],\"id\":\"HEADER-Xjfzb7SWH5\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"META\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-YFYPfb1oy5\":{\"children\":[],\"id\":\"HEADER-YFYPfb1oy5\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"PRICES\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-nxlvsd6b0D\":{\"children\":[],\"id\":\"HEADER-nxlvsd6b0D\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"PROPERTY TYPE / CONDITION\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-fVdpT_efIm\",\"COLUMN-ZYhFOGb7Oq\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"real-estate\"},\"type\":\"HEADER\"},\"MARKDOWN-xzuPC_Qfsv\":{\"children\":[],\"id\":\"MARKDOWN-xzuPC_Qfsv\",\"meta\":{\"code\":\"## Metrics\\n\\nPrice currency: EUR\\n\\nArea: m2\\n\\nLot area: m2\",\"height\":23,\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-GcXjnfIbc\",\"COLUMN-XDSHzhuaEg\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-4dFCZM_U7k\":{\"children\":[\"COLUMN-YbGXJQS7rt\",\"COLUMN-SknAYUVwTR\",\"COLUMN-NLgS_Ec3EW\",\"COLUMN-uv58UeWArN\",\"COLUMN-j4Cul2B6h1\"],\"id\":\"ROW-4dFCZM_U7k\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-GcXjnfIbc\":{\"children\":[\"COLUMN-XDSHzhuaEg\"],\"id\":\"ROW-GcXjnfIbc\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-Ii6rWbKS-N\":{\"children\":[\"COLUMN-5G2nswNuBT\"],\"id\":\"ROW-Ii6rWbKS-N\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-S4i5k2xSG\":{\"children\":[\"COLUMN-WyQjnzdJia\"],\"id\":\"ROW-S4i5k2xSG\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-ZVftn2SyVO\":{\"children\":[\"COLUMN-VH9yuX1IY-\",\"COLUMN-yYzbT4LXTV\"],\"id\":\"ROW-ZVftn2SyVO\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-akimaNGOwS\":{\"children\":[\"COLUMN-BxbTyIqpcN\"],\"id\":\"ROW-akimaNGOwS\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-byyMDF5TJ\":{\"children\":[\"CHART-dv21UULeKy\",\"CHART-Gh36hznX7Q\",\"CHART-vYs4YCpYLB\"],\"id\":\"ROW-byyMDF5TJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-fVdpT_efIm\":{\"children\":[\"COLUMN-ZYhFOGb7Oq\",\"COLUMN-t3Nsc13M9Q\"],\"id\":\"ROW-fVdpT_efIm\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-yEL5C0HvaJ\":{\"children\":[\"COLUMN-ZA3NVa1kyJ\"],\"id\":\"ROW-yEL5C0HvaJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 28,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"city_normalized\"], \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": null, \"server_page_length\": 10, \"show_cell_bars\": true, \"slice_id\": 28, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 28, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Count of listings per city",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 29,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"Budapest\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_rrffpsupd6a_3sph95ztqzm\", \"isExtra\": false, \"isNew\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"city_normalized\"}], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"contribution\": false, \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"property_type\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"order_bars\": false, \"order_desc\": true, \"row_limit\": null, \"show_bar_value\": true, \"show_controls\": false, \"show_legend\": false, \"slice_id\": 29, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Listings\", \"y_axis_showminmax\": false, \"remote_id\": 29, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Property types (Budapest)",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 30,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_g4xv4nwivbn_npncwj4moj\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"property_condition is not null and city_normalized = 'Budapest' and build_year is not null\", \"subject\": null}], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"d3Category10\", \"columns\": [\"property_condition\"], \"contribution\": false, \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"build_year\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"order_bars\": false, \"order_desc\": false, \"row_limit\": null, \"show_bar_value\": true, \"show_legend\": true, \"slice_id\": 30, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Listings\", \"remote_id\": 30, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Property conditions per built year",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 31,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_d3i5mj6is14_i89r4ieup8\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"property_type IS NOT NULL and property_condition is not null\", \"subject\": null}], \"color_scheme\": \"googleCategory20c\", \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"property_type\", \"property_condition\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"number_format\": \"SMART_NUMBER\", \"order_desc\": false, \"row_limit\": null, \"slice_id\": 31, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"treemap_ratio\": 1.118033988749895, \"url_params\": {}, \"viz_type\": \"treemap\", \"remote_id\": 31, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Distribution of property types and conditions",
+                            "viz_type": "treemap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 38,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"header_font_size\": 0.4, \"metric\": \"count\", \"rolling_type\": \"None\", \"show_trend_line\": true, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"P1W\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 38, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Data rows ingested last week",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 39,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"header_font_size\": 0.4, \"metric\": \"count\", \"slice_id\": 39, \"subheader_font_size\": 0.15, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 39, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Listings in the database (only top 10 cities included)",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 41,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"property_condition\"], \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 41, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Property condition",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 42,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"city_normalized\"], \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 42, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Property per city",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 43,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"build_year\"], \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": true, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": 10000, \"server_page_length\": 10, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 43, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Build year",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.avg_price_gapfilled",
+                            "datasource_type": "table",
+                            "id": 45,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"area\": false, \"color_scheme\": \"supersetColors\", \"datasource\": \"20__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"bucket\", \"groupby\": [\"city_normalized\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": null, \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"avg_price_filled\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 117, \"is_dttm\": false, \"python_date_format\": null, \"type\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(avg_price_filled)\", \"optionName\": \"metric_5pozn4v65o5_2d6u0l3zvta\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": null, \"seriesType\": \"line\", \"show_legend\": true, \"slice_id\": 45, \"stack\": false, \"time_grain_sqla\": \"P1W\", \"time_range\": \"2021-06-27T00:00:00 : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"xAxisShowMinLabel\": false, \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"zoomable\": false, \"remote_id\": 45, \"datasource_name\": \"avg_price_gapfilled\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Average property price over time",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 46,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_radius\": 0, \"cell_size\": 15, \"datasource\": \"18__table\", \"domain_granularity\": \"month\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"linear_color_scheme\": \"superset_seq_1\", \"metrics\": [\"count\"], \"show_legend\": true, \"show_metric_name\": true, \"steps\": 12, \"subdomain_granularity\": \"day\", \"time_range\": \"2021-06-01T09:14:37 : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 46, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Scraping calendar",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.avg_price_gapfilled",
+                            "datasource_type": "table",
+                            "id": 49,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"area\": false, \"color_scheme\": \"supersetColors\", \"datasource\": \"20__table\", \"extra_form_data\": {}, \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"bucket\", \"groupby\": [\"city_normalized\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": null, \"markerEnabled\": false, \"markerSize\": 6, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(avg_price_filled/avg_area)\", \"optionName\": \"metric_5pozn4v65o5_2d6u0l3zvta\", \"sqlExpression\": \"MAX(avg_price_filled/avg_area)\"}], \"opacity\": 0.2, \"order_desc\": true, \"rich_tooltip\": true, \"row_limit\": null, \"seriesType\": \"line\", \"show_legend\": true, \"slice_id\": 49, \"stack\": false, \"time_grain_sqla\": \"P1W\", \"time_range\": \"2021-06-27T00:00:00 : now\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"tooltipTimeFormat\": \"smart_date\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"xAxisShowMinLabel\": false, \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"zoomable\": false, \"remote_id\": 49, \"datasource_name\": \"avg_price_gapfilled\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Average property price/area over time",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 50,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_6n3ex7omcei_zcfjwrkm0uc\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"city_normalized = 'Budapest' and property_condition is not null\", \"subject\": null}], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"columns\": [], \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"property_condition\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"price_eur\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 109, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INTEGER\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(price_eur)\", \"optionName\": \"metric_9b5os6h9lpd_ftntrcj5xtk\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": null, \"show_bar_value\": true, \"show_legend\": true, \"slice_id\": 50, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Listings\", \"remote_id\": 50, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Average price per property condition",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.es_top_cities",
+                            "datasource_type": "table",
+                            "id": 51,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": null, \"expressionType\": \"SQL\", \"filterOptionName\": \"filter_6n3ex7omcei_zcfjwrkm0uc\", \"isExtra\": false, \"isNew\": false, \"operator\": null, \"sqlExpression\": \"city_normalized = 'Budapest' and build_year is not null\", \"subject\": null}], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"columns\": [], \"datasource\": \"18__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [\"build_year\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"price_eur\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 109, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"INTEGER\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(price_eur)\", \"optionName\": \"metric_9b5os6h9lpd_ftntrcj5xtk\", \"sqlExpression\": null}], \"order_desc\": true, \"row_limit\": null, \"show_bar_value\": true, \"show_legend\": true, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Listings\", \"remote_id\": 51, \"datasource_name\": \"es_top_cities\", \"schema\": \"public\", \"database_name\": \"real-estate\"}",
+                            "slice_name": "Average price per build year",
+                            "viz_type": "dist_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "city_normalized",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 88,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "5b59d156-38aa-47e5-80a0-9badcb787f39",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "url",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 89,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "2c15b6eb-ffcf-47e8-a792-119228a25a45",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 90,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "a4755f83-5472-40b0-a7d1-93b4233b6d88",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "city",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 91,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "37d795ed-43f5-48c1-b9a8-f1b28a1aa232",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "address",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 92,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "af212546-e5d3-4e5b-b0d4-0d4b7fc14b92",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "area",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 93,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "INTEGER",
+                            "uuid": "06da8622-7a8a-473a-b49a-c895ed9c7fa8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "rooms",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 94,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "INTEGER",
+                            "uuid": "c9dc492d-8815-4d64-bc38-cf1cd268e6dd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "price",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 95,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "INTEGER",
+                            "uuid": "83bcabd9-e40d-43bd-9839-0328afb6e89e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "property_condition",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 96,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "7247c070-4ace-47bd-8472-1aa6a6b2c44d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "build_year",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 97,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "44bad3fa-6607-4586-9b8f-a5356e3c6f29",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "description",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 98,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "4c3dfbd4-64d2-47b4-be9b-b24106dc2204",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "floor",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 99,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "INTEGER",
+                            "uuid": "3f796f11-b7bd-40bf-a040-5fcc1984b13c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "building_floors",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 100,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "INTEGER",
+                            "uuid": "70c84ecf-d71f-4751-be80-4181e7b40ddc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "property_type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 101,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "9b6e9f55-b5af-4c17-a9da-eb746dc42ee2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "area_lot",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 102,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "INTEGER",
+                            "uuid": "5e83a0d9-3a67-48b0-9ac1-79ca853abf45",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "advertiser_agent",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 103,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "75939f16-b036-4b75-8f57-98cc173ac040",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "column_name": "advertiser_name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 104,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "TEXT",
+                            "uuid": "6d45341e-27a4-481f-a7c5-adf31e16c86d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T10:54:28"
+                            },
+                            "column_name": "price_eur",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T10:54:28"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 109,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 18,
+                            "type": "INTEGER",
+                            "uuid": "8188dd47-9d3a-45c7-a516-a2e36654be3b",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T10:45:14"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-28T17:51:59"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": "{}",
+                            "id": 18,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 18,
+                            "uuid": "1d890d5a-c35d-438d-a7d6-15b2debdd1c4",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 18, \"database_name\": \"real-estate\", \"import_time\": 1633433091}",
+                "schema": "public",
+                "sql": "",
+                "table_name": "es_top_cities",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "column_name": "bucket",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 114,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 20,
+                            "type": "DATETIME",
+                            "uuid": "4cbd5bc1-b75f-49bb-9452-62612b176996",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "column_name": "city_normalized",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 115,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 20,
+                            "type": "STRING",
+                            "uuid": "7b4e2f85-7f33-496a-ae36-a48285b69177",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "column_name": "avg_price",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 116,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 20,
+                            "type": null,
+                            "uuid": "e03022ec-9ad5-4416-86a6-3e0e14916902",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "column_name": "avg_price_filled",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 117,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 20,
+                            "type": null,
+                            "uuid": "35984307-5ca7-448e-8c6c-f287671eac7b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T12:07:31"
+                            },
+                            "column_name": "avg_area",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T12:07:31"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 118,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 20,
+                            "type": null,
+                            "uuid": "e70ad01a-15ab-438e-bd43-6c671f822823",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T12:07:31"
+                            },
+                            "column_name": "avg_rooms",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T12:07:31"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 119,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 20,
+                            "type": null,
+                            "uuid": "35eb6dcf-c5a9-41aa-a423-86178a648ae3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T12:07:31"
+                            },
+                            "column_name": "avg_area_lot",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T12:07:31"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 120,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 20,
+                            "type": null,
+                            "uuid": "37d221c7-11f7-4949-b7d8-6c246827bc00",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-30T12:07:20"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-30T10:58:01"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": "{}",
+                            "id": 20,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 20,
+                            "uuid": "b5e5b143-7115-4e59-a053-d2d0610f0ac7",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 20, \"database_name\": \"real-estate\", \"import_time\": 1633433091}",
+                "schema": "public",
+                "sql": "SELECT time_bucket_gapfill('1 week', time) AS bucket,\n       city_normalized,\n       AVG(price_eur) AS \"avg_price\",\n       AVG(area) AS \"avg_area\",\n       AVG(rooms) AS \"avg_rooms\",\n       AVG(area_lot) AS \"avg_area_lot\",\n       locf(avg(price_eur)) AS \"avg_price_filled\"\nFROM public.es_top_cities\nWHERE time > TIMESTAMP '2021-06-10' AND time < now()\nGROUP BY bucket, city_normalized",
+                "table_name": "avg_price_gapfilled",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "url",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 42,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "f2370a53-0177-43fe-8c0f-eacaf21be6e3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "city",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 43,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "78b83d7f-01d3-48b4-ad6a-4fe3e76a71fd",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "address",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 44,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "7938d016-85f7-4bc3-b27c-d56b63db6c92",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "area",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 45,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER",
+                            "uuid": "fbd27ff2-15e5-4e2b-96fd-666954d1acf8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "rooms",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 46,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER",
+                            "uuid": "361be793-bf74-4a5d-90a9-bc5cc5600ead",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "price",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 47,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER",
+                            "uuid": "541264bb-1bd7-4abd-92e8-24bc337d380a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "property_condition",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 48,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "94581eaa-f5be-4b62-9b2f-e2d52681822e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "build_year",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 49,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "4760c4d5-c0ed-4b1c-b7d7-7afd2cda35b5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "description",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 50,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "273842de-7da3-4a62-8075-3205b19fb58f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "floor",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 51,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER",
+                            "uuid": "9d98841b-8a0c-4983-9526-9229ac1965d8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "building_floors",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 52,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER",
+                            "uuid": "fc6b578d-caa8-4fc6-b6fa-13bcbd2338f0",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "property_type",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 53,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "45272b86-454e-46ce-9334-a7da05f673b5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "advertiser_agent",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 54,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "1e454461-e442-48a2-ab8e-aa47cb5bb121",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "advertiser_name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 55,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TEXT",
+                            "uuid": "959e4153-073f-48bb-9176-3b90f9a995f2",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 56,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "uuid": "afadad89-ae93-40fa-bf9d-3b0b3d562636",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "column_name": "area_lot",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 57,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 14,
+                            "type": "INTEGER",
+                            "uuid": "3a834206-b60b-4b6c-a9ae-4cfad2e1512f",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 2,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-09-04T15:39:25"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 14,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 14,
+                            "uuid": "2f98c070-0bba-410c-bd1e-0efeed9f1f15",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 14, \"database_name\": \"real-estate\", \"import_time\": 1633433091}",
+                "schema": "public",
+                "sql": null,
+                "table_name": "real_estate",
+                "template_params": null
+            }
+        }
+    ]
+}

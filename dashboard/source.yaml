@@ -1,0 +1,225 @@
+databases:
+- database_name: real-estate
+  sqlalchemy_uri: postgresql://docker:password@timescaledb:5432/real_estate
+  tables:
+  - columns:
+    - column_name: bucket
+      is_dttm: true
+      type: DATETIME
+    - column_name: city_normalized
+      type: STRING
+    - column_name: avg_area_lot
+    - column_name: avg_price_filled
+    - column_name: avg_area
+    - column_name: avg_price
+    - column_name: avg_rooms
+    metrics:
+    - expression: count(*)
+      extra: '{}'
+      metric_name: count
+    params: '{"remote_id": 20, "database_name": "real-estate", "import_time": 1633433091}'
+    schema: public
+    sql: "SELECT time_bucket_gapfill('1 week', time) AS bucket,\n       city_normalized,\n\
+      \       AVG(price_eur) AS \"avg_price\",\n       AVG(area) AS \"avg_area\",\n\
+      \       AVG(rooms) AS \"avg_rooms\",\n       AVG(area_lot) AS \"avg_area_lot\"\
+      ,\n       locf(avg(price_eur)) AS \"avg_price_filled\"\nFROM public.es_top_cities\n\
+      WHERE time > TIMESTAMP '2021-06-10' AND time < now()\nGROUP BY bucket, city_normalized"
+    table_name: avg_price_gapfilled
+  - columns:
+    - column_name: time
+      is_dttm: true
+      type: TIMESTAMP WITHOUT TIME ZONE
+    - column_name: area_lot
+      type: INTEGER
+    - column_name: building_floors
+      type: INTEGER
+    - column_name: price_eur
+      type: INTEGER
+    - column_name: area
+      type: INTEGER
+    - column_name: price
+      type: INTEGER
+    - column_name: floor
+      type: INTEGER
+    - column_name: rooms
+      type: INTEGER
+    - column_name: advertiser_agent
+      type: TEXT
+    - column_name: advertiser_name
+      type: TEXT
+    - column_name: build_year
+      type: TEXT
+    - column_name: city_normalized
+      type: TEXT
+    - column_name: property_condition
+      type: TEXT
+    - column_name: property_type
+      type: TEXT
+    - column_name: address
+      type: TEXT
+    - column_name: description
+      type: TEXT
+    - column_name: city
+      type: TEXT
+    - column_name: url
+      type: TEXT
+    main_dttm_col: time
+    metrics:
+    - expression: COUNT(*)
+      extra: '{}'
+      metric_name: count
+      metric_type: count
+      verbose_name: COUNT(*)
+    params: '{"remote_id": 18, "database_name": "real-estate", "import_time": 1633433091}'
+    schema: public
+    sql: ''
+    table_name: es_top_cities
+  - columns:
+    - column_name: bucket
+      is_dttm: true
+      type: DATETIME
+    - column_name: city_normalized
+      type: STRING
+    - column_name: avg_area_lot
+    - column_name: avg_price_filled
+    - column_name: avg_area
+    - column_name: avg_price
+    - column_name: avg_rooms
+    metrics:
+    - expression: count(*)
+      metric_name: count
+    schema: public
+    sql: "SELECT time_bucket_gapfill('1 week', time) AS bucket,\n       city_normalized,\n\
+      \       AVG(price_eur) AS \"avg_price\",\n       AVG(area) AS \"avg_area\",\n\
+      \       AVG(rooms) AS \"avg_rooms\",\n       AVG(area_lot) AS \"avg_area_lot\"\
+      ,\n       locf(avg(price_eur)) AS \"avg_price_filled\"\nFROM public.es_top_cities\n\
+      WHERE time > TIMESTAMP '2021-06-10' AND time < now()\nGROUP BY bucket, city_normalized"
+    table_name: query_temp_data
+  - columns:
+    - column_name: bucket
+      is_dttm: true
+      type: DATETIME
+    - column_name: city_normalized
+      type: STRING
+    - column_name: avg_area_lot
+    - column_name: avg_price_filled
+    - column_name: avg_area
+    - column_name: avg_price
+    - column_name: avg_rooms
+    metrics:
+    - expression: count(*)
+      metric_name: count
+    schema: public
+    sql: "SELECT time_bucket_gapfill('1 week', time) AS bucket,\n       city_normalized,\n\
+      \       AVG(price_eur) AS \"avg_price\",\n       AVG(area) AS \"avg_area\",\n\
+      \       AVG(rooms) AS \"avg_rooms\",\n       AVG(area_lot) AS \"avg_area_lot\"\
+      ,\n       locf(avg(price_eur)) AS \"avg_price_filled\"\nFROM public.es_top_cities\n\
+      WHERE time > TIMESTAMP '2021-06-28' AND time < now()\nGROUP BY bucket, city_normalized"
+    table_name: dataset_gapfill
+  - columns:
+    - column_name: time
+      is_dttm: true
+      type: TIMESTAMP WITHOUT TIME ZONE
+    - column_name: area_lot
+      type: INTEGER
+    - column_name: building_floors
+      type: INTEGER
+    - column_name: area
+      type: INTEGER
+    - column_name: price
+      type: INTEGER
+    - column_name: floor
+      type: INTEGER
+    - column_name: rooms
+      type: INTEGER
+    - column_name: advertiser_agent
+      type: TEXT
+    - column_name: advertiser_name
+      type: TEXT
+    - column_name: build_year
+      type: TEXT
+    - column_name: property_condition
+      type: TEXT
+    - column_name: property_type
+      type: TEXT
+    - column_name: address
+      type: TEXT
+    - column_name: description
+      type: TEXT
+    - column_name: city
+      type: TEXT
+    - column_name: url
+      type: TEXT
+    main_dttm_col: time
+    metrics:
+    - expression: COUNT(*)
+      metric_name: count
+      metric_type: count
+      verbose_name: COUNT(*)
+    params: '{"remote_id": 14, "database_name": "real-estate", "import_time": 1633433091}'
+    schema: public
+    table_name: real_estate
+  - columns:
+    - column_name: time
+      is_dttm: true
+      type: TIMESTAMP WITHOUT TIME ZONE
+    - column_name: area_lot
+      type: INTEGER
+    - column_name: building_floors
+      type: INTEGER
+    - column_name: area
+      type: INTEGER
+    - column_name: price
+      type: INTEGER
+    - column_name: floor
+      type: INTEGER
+    - column_name: rooms
+      type: INTEGER
+    - column_name: advertiser_agent
+      type: TEXT
+    - column_name: advertiser_name
+      type: TEXT
+    - column_name: build_year
+      type: TEXT
+    - column_name: city_normalized
+      type: TEXT
+    - column_name: property_condition
+      type: TEXT
+    - column_name: property_type
+      type: TEXT
+    - column_name: address
+      type: TEXT
+    - column_name: description
+      type: TEXT
+    - column_name: city
+      type: TEXT
+    - column_name: url
+      type: TEXT
+    main_dttm_col: time
+    metrics:
+    - expression: COUNT(*)
+      extra: '{"warning_markdown":null}'
+      metric_name: count
+      verbose_name: COUNT(*)
+    schema: public
+    table_name: top_cities
+  - columns:
+    - column_name: bucket
+      expression: ''
+      type: DATETIME
+    - column_name: city_normalized
+      expression: ''
+      type: STRING
+    - column_name: avg_price_filled
+      expression: ''
+    - column_name: avg_price
+      expression: ''
+    metrics:
+    - expression: count(*)
+      metric_name: count
+    schema: public
+    sql: "SELECT time_bucket_gapfill('1 week', time) AS bucket,\n       city_normalized\
+      \ AS city_normalized,\n       AVG(price_eur) AS \"avg_price\",\n       locf(avg(price_eur))\
+      \ AS \"avg_price_filled\"\nFROM public.es_top_cities\nWHERE time > TIMESTAMP\
+      \ '2021-06-10' AND time < now()\nGROUP BY bucket, city_normalized"
+    table_name: Query public.avg price gapfilled 09/29/2021 23:55:05
