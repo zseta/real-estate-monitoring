@@ -3,4 +3,5 @@ ENV POSTGRES_USER docker
 ENV POSTGRES_PASSWORD password
 ENV POSTGRES_DB real_estate
 COPY scripts/* /docker-entrypoint-initdb.d/
-COPY data/real_estate_hun.csv .
+COPY data/real_estate_hun1.csv .
+COPY data/real_estate_hun2.csv .
