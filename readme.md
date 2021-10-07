@@ -18,7 +18,7 @@ But even if you don't want to set up the spiders, you can install this project b
 The database and the Superset dashboard is fully Dockerized. After installation you will have a local TimescaleDB and 
 a local Superset instance running - with real web extracted data (100K+ rows).
 
-The Docker service uses port 8088 so make sure there's not other service using that port.
+The Docker service uses port 8088 (Superset) and 6543 (TimescaleDB) so make sure there's no other services using those ports.
 
 
 ### Prerequisites
