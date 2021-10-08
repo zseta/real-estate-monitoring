@@ -33,7 +33,7 @@ The Docker service uses port 8088 (Superset) and 6543 (TimescaleDB) so make sure
 * [Virtualenv](https://virtualenv.pypa.io/en/latest/installation.html) (optional, only needed for the spiders)
     ```bash
     virtualenv venv && source venv/bin/activate
-    pip install -r requirements.txt
+    pip install -r spiders/requirements.txt
     ```
 
 ### Installation
