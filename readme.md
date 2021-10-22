@@ -66,7 +66,7 @@ The Docker service uses port 8088 (Superset) and 6543 (TimescaleDB) so make sure
     been created based on the web extracted data stored in TimescaleDB.
 
 
-## Schema design
+## Data fields description
 
 | Data field         | Field description                       |
 |--------------------|-----------------------------------------|
